@@ -4,7 +4,7 @@ library(assertthat)
 library(caret)
 library(pROC)
 library(MCMCpack)
-
+ 
 pow_law_sample <- function(n, x_min, x_max, eta){
   #n, number of samples
   #eta is the exponent of the power law distribution, say eta = 2
